@@ -51,7 +51,7 @@ The codebase is organized into the following structure:
 2. **Backend Setup:**
    - Navigate to the backend directory: `cd backend`
    - Install dependencies: `npm install`
-   - Start the server: `npm start`
+   - Start the server: `node server.js`
 
 3. **Frontend Setup:**
    - Open a new terminal window/tab.
