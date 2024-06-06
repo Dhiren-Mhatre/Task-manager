@@ -1,0 +1,51 @@
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.task-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-details.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.task-actions button {
+  margin-left: 5px;
+}
+
+.task-edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task-edit-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.task-edit-form input {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.task-edit-form button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.task-edit-form button[type="button"] {
+  background-color: #6c757d;
+}
